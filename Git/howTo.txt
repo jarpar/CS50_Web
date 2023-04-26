@@ -2,6 +2,7 @@ git clone <url>
 touch hello.html
 git add .
 git commit -m "message"
+git commit -am "message"
 git status
 git push
 git pull
@@ -9,3 +10,5 @@ git merge
 git fetch
 git reset --hard <commit>
 git reset --hard origin/master
+git branch
+git checkout -b <name>
