@@ -1,0 +1,6 @@
+git clone <url>
+touch hello.html
+git add .
+git commit -m "message"
+git status
+git push
