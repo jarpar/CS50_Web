@@ -4,3 +4,8 @@ git add .
 git commit -m "message"
 git status
 git push
+git pull
+git merge
+git fetch
+git reset --hard <commit>
+git reset --hard origin/master
