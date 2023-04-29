@@ -11,6 +11,7 @@ def f(person):
 
 people.sort(key=f)
 """
-people.sort(ket=lambda person: person["name"])
+
+people.sort(key=lambda person: person["name"])
 
 print(people)
