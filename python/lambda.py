@@ -5,9 +5,12 @@ people = [
 ]
 
 
+"""
 def f(person):
     return person["name"]
 
 people.sort(key=f)
+"""
+people.sort(ket=lambda person: person["name"])
 
 print(people)
